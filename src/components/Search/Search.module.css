@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    width: 300px;
+
+}
+
+.eventEditContainer {
+    position: absolute;
+    left: -100%;
+    z-index: 10000;
+}

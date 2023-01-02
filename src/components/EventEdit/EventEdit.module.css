@@ -1,0 +1,56 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    gap: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin: 25px 10px;
+}
+
+.close {
+    margin: 5px 3px 2px auto;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+}
+
+.description {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.container {
+    position: absolute;
+    width: 300px;
+    z-index: 10;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerSeventh  {
+    position: absolute;
+    width: 300px;
+    z-index: 10;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 0%;
+    left: 54%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 100%
+    
+}

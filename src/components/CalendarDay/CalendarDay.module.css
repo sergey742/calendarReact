@@ -1,0 +1,11 @@
+.container {
+    border: 1px solid #dddbdb;
+    height: 140px;
+    overflow: auto;
+}
+
+.day {
+    color: grey;
+    font-size: 12px;
+    margin: 3px 5px 5px 5px;
+}
